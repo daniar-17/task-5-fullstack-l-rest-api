@@ -50,7 +50,7 @@ https://docs.google.com/document/d/1FrT33SkvQEujMGLSAElyr23QF2EIdqjm/edit?usp=sh
 > Pembuat : Daniar Nur Amin.
 
 
-## Ini Beberapa Contoh Penggunaan Api :
+## Ini Beberapa Contoh Penggunaan restApi :
 <b>LOGIN</b><br>
 <b>POST : http://127.0.0.1:8000/api/login<b><br>
 <kbd><img src="https://user-images.githubusercontent.com/81208093/179658708-8440addf-73d2-488d-b8d8-a1ee46a83924.PNG" width="600" height="350"></kbd>
