@@ -28,7 +28,7 @@ B.	<b>POST</b> : berfungsi untuk membuat sebuah data/resource baru di REST serve
 C.	<b>PUT</b> : berfungsi untuk memperbaharui data/resource di REST server.<br>
 D.	<b>DELETE</b> : berfungsi untuk menghapus data/resource dari REST serve.<br>
 
-Kali ini akan melakukan beberapa hal pada project kali ini, untuk lebih jelasnya ada pada list di bawah : <br>
+Kali ini kita akan melakukan beberapa hal pada project ini, untuk lebih jelasnya ada pada list di bawah : <br>
 1.	Register <br>
 2.	Login <br>
 3.	Logout <br>
