@@ -22,6 +22,25 @@ Ini adalah suatu restful api yang dibuat untuk mengelola artikel dan kategori ya
 3 Jalankan perintah <b>'php artisan key:generate'</b> pada cmd dimana lokasi folder anda disimpan.
 </p>
 
+Pada project kali ini kita menggunakan beberapa method yaitu :<br>
+A.	<b>GET</b> : berfungsi untuk membaca data/resource dari REST server.<br>
+B.	<b>POST</b> : berfungsi untuk membuat sebuah data/resource baru di REST server.<br>
+C.	<b>PUT</b> : berfungsi untuk memperbaharui data/resource di REST server.<br>
+D.	<b>DELETE</b> : berfungsi untuk menghapus data/resource dari REST serve.<br>
+
+Kali ini akan melakukan beberapa hal pada project kali ini, untuk lebih jelasnya ada pada list di bawah : <br>
+1.	Register <br>
+2.	Login <br>
+3.	Logout <br>
+4.	GetAllData (List All) <br>
+5.	GetDetailData (Show Detail) <br>
+6.	Insert <br>
+7.	Update <br>
+8.	Delete <br>
+9.	SearchBy-Name/Title <br>
+
+Pada no 4 – 9 ini akan dilakukan pada Kategori dan Artikel, selain itu kita kita juga akan memperlihatkan Pagination, Check Data setelah insert dan Update, Check Data setelah di delete, Copy-paste access token agar bisa mengakses CRUD. Disini juga kita menggunakan <b>prefix versi dengan api/v1</b>.
+
 <p align="justify">
 <b><i>Untuk tutorial penggunaan rest api secara detail bisa dilihat pada :</i></b><br>
 https://docs.google.com/document/d/1FrT33SkvQEujMGLSAElyr23QF2EIdqjm/edit?usp=sharing&ouid=104432453884649434611&rtpof=true&sd=true
@@ -31,5 +50,10 @@ https://docs.google.com/document/d/1FrT33SkvQEujMGLSAElyr23QF2EIdqjm/edit?usp=sh
 > Pembuat : Daniar Nur Amin.
 
 
-## Ini Beberapa Contoh Tampilannya :
+## Ini Beberapa Contoh Penggunaan Api :
+<br>
+<b>Login</b><br>
+<b>POST : http://127.0.0.1:8000/api/login<b><br>
+
+<img src="https://user-images.githubusercontent.com/81208093/179658708-8440addf-73d2-488d-b8d8-a1ee46a83924.PNG" width="600" height="350">
 <br>
