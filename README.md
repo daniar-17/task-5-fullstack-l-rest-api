@@ -51,9 +51,19 @@ https://docs.google.com/document/d/1FrT33SkvQEujMGLSAElyr23QF2EIdqjm/edit?usp=sh
 
 
 ## Ini Beberapa Contoh Penggunaan Api :
-<br>
-<b>Login</b><br>
+<b>LOGIN</b><br>
 <b>POST : http://127.0.0.1:8000/api/login<b><br>
-
-<img src="https://user-images.githubusercontent.com/81208093/179658708-8440addf-73d2-488d-b8d8-a1ee46a83924.PNG" width="600" height="350">
+<kbd><img src="https://user-images.githubusercontent.com/81208093/179658708-8440addf-73d2-488d-b8d8-a1ee46a83924.PNG" width="600" height="350"></kbd>
+<br>
+    
+<hr>
+<b>GET ALL DATA</b><br>
+<b>GET : http://127.0.0.1:8000/api/v1/articles<b><br>
+<kbd><img src="https://user-images.githubusercontent.com/81208093/179658924-a254ffd0-ef89-4e58-94ba-6dbbbcca4a08.PNG" width="600" height="350"></kbd>
+<br>
+    
+<hr>
+<b>Insert</b><br>
+<b>POST : http://127.0.0.1:8000/api/v1/articles<b><br>
+<kbd><img src="https://user-images.githubusercontent.com/81208093/179659678-5d2e3f69-e8aa-4e4d-a60e-01039b19b5d7.PNG" width="600" height="350"></kbd>
 <br>
